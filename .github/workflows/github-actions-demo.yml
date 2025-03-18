@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 jobs:
   Build:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     steps:
       - name: the event triggering the workflow 
         run: |
